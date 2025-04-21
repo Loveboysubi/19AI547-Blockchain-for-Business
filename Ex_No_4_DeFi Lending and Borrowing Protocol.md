@@ -3,27 +3,13 @@
 To build a decentralized lending protocol where users can deposit assets to earn interest and borrow assets by providing collateral. This experiment introduces concepts like overcollateralization, liquidity pools, and interest accrual in DeFi.
 
 # Algorithm:
-Step 1: Setup Lending and Borrowing Mechanism
-Users deposit ETH into the contract as liquidity.
+Step 1:Deposit: User sends ETH, increasing their deposit balance.
 
+step 2:Borrow: User provides collateral, borrows ETH based on collateral, and transfers borrowed amount.
 
-Depositors receive interest based on their deposits.
+step 3:Liquidation: If collateral drops below the threshold, liquidator can seize collateral and repay debt.
 
-
-Borrowers can borrow ETH but must provide collateral (e.g., 150% of the borrowed amount).
-
-
-Interest on borrowed funds is calculated dynamically based on utilization rate.
-
-
-Step 2: Implement Overcollateralization
-If a borrower’s collateral value drops below a certain liquidation threshold, their collateral is liquidated to repay the debt.
-
-
-Step 3: Allow Liquidation
-If collateral < liquidation threshold, liquidators can repay the borrower's debt and claim their collateral at a discount.
-
-
+step 4:Interest: Calculate 5% interest on borrowed amount for each cycle (this part is implied but not implemented in the contract).
 
 Program:
 ```
@@ -71,16 +57,17 @@ contract DeFiLending {
         emit Liquidated(borrower, debt, seizedCollateral);
     }
 }
-
 ```
 # Expected Output:
 Users can deposit ETH and earn interest.
-
+![Screenshot (8)](https://github.com/user-attachments/assets/b73b1e66-1f82-41e6-98f7-b24258139b10)
 
 Users can borrow ETH by providing collateral.
-
+![Screenshot (7)](https://github.com/user-attachments/assets/f3a86803-40b3-4c7c-8765-2738b4a3001b)
 
 If collateral < 150% of borrowed amount, liquidators can seize the collateral.
+
+![Screenshot (9)](https://github.com/user-attachments/assets/c8803d79-da67-4434-9484-74787923e2c7)
 
 
 
@@ -94,4 +81,5 @@ Introduces risk management: overcollateralization and liquidation.
 Directly related to DeFi protocols like Aave and Compound.
 
 # RESULT : 
+To build a decentralized lending protocol where users can deposit assets to earn interest and borrow assets by providing collateral. This experiment introduces concepts like overcollateralization, liquidity pools, and interest accrual in DeFi is excueted successfully.
 
