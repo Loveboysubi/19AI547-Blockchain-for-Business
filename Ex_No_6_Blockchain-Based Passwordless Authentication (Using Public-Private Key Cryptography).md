@@ -42,18 +42,19 @@ contract PasswordlessAuth {
 
 # Expected Output:
 Users can register without a password.
+![WhatsApp Image 2025-04-28 at 14 56 40_04c2dbed](https://github.com/user-attachments/assets/bd954c59-b324-422c-8877-76c17e7a07c2)
 
+![WhatsApp Image 2025-04-28 at 14 56 56_fa157411](https://github.com/user-attachments/assets/2859049e-7da5-487f-90cb-3a35fafff39d)
+
+![WhatsApp Image 2025-04-28 at 14 56 54_1452fe31](https://github.com/user-attachments/assets/c3882f08-e04c-4f64-89ac-73389b79b225)
 
 Users sign a challenge with their private key for authentication.
 
-
-The smart contract verifies signatures to confirm identity.
-
+![WhatsApp Image 2025-04-28 at 14 56 56_ffa726ea](https://github.com/user-attachments/assets/39efef63-f718-49cc-b192-eae904629761)
 
 
 # High-Level Overview:
 Eliminates password hacks & phishing attacks.
-
 
 Uses Ethereum's built-in cryptographic functions.
 
