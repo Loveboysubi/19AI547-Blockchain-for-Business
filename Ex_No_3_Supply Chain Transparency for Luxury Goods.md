@@ -1,15 +1,16 @@
 # Aim:
 To develop a smart contract that tracks the supply chain of luxury goods, ensuring authenticity.
 # Algorithm:
+Step 1:
 A project owner starts a campaign with a funding goal and deadline.
 
-
+Step2:
 Contributors can send ETH to the campaign.
 
-
+Step3:
 If the goal is met before the deadline, funds are released to the project owner.
 
-
+Step4:
 If the goal is not met, contributors can withdraw their funds.
 
 # Program:
