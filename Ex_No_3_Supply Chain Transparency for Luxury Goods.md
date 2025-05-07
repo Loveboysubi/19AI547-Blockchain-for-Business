@@ -61,4 +61,4 @@ Helps prevent counterfeit luxury goods.
 Teaches real-world supply chain use cases.
 
 # RESULT : 
-Develop a smart contract that tracks the supply chain of luxury goods, ensuring authenticity is excutted successfully.
+Thus, To Develop a smart contract that tracks the supply chain of luxury goods, ensuring authenticity is excutted successfully.
