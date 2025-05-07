@@ -3,19 +3,22 @@
 To create a decentralized crowdfunding platform where donors contribute funds only if the campaign goal is met.
 
 ## Algorithm:
-A project owner starts a campaign with a funding goal and deadline.
+### step 1:
 
+A project owner starts a campaign with a funding goal and deadline.
+### step 2:
 
 Contributors can send ETH to the campaign.
-
+### step 3:
 
 If the goal is met before the deadline, funds are released to the project owner.
-
+### step 4:
 
 If the goal is not met, contributors can withdraw their funds.
 
-
 ## Program:
+#### Developed by: Subishesh P
+#### Register number: 212223230220
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
@@ -70,10 +73,16 @@ If the goal is met, the creator can withdraw funds.
 If the goal is not met, contributors can claim a refund.
 
 
-# High-Level Overview:
-Teaches decentralized fundraising.
+# Output :
+Contribute Output : 
+![contibute output](https://github.com/user-attachments/assets/a4dc0515-cd50-4fe2-a6bf-0921e5ce0724)
 
+Withdraw Output : 
+![withdrawl output](https://github.com/user-attachments/assets/0d1a9a35-7a92-4fef-8642-a49e7062f721)
 
-Avoids fraud by ensuring funds are only transferred if the goal is met.
+Campaign Output :
+![campaign output](https://github.com/user-attachments/assets/eaaaefa1-1212-4707-8a3c-dd2db8a04660)
+
 
 # RESULT: 
+   Thus, to create a decentralized crowdfunding platform where donors contribute funds only if the campaign goal is met is executed successfully.
